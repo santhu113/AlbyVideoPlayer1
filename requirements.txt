@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://te.legra.ph/file/965b2df3eeaf45cc5a291.jpg"</p>
+
+
+
 git+https://github.com/pyrogram/pyrogram@master
 py-tgcalls==0.8.1rc1
 parse-torrent-name
@@ -12,3 +17,5 @@ dnspython
 pytz
 apscheduler
 python-dotenv
+
+

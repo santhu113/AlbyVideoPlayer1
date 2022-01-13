@@ -14,11 +14,13 @@ from pyrogram import (
     Client, 
     errors
 )
-
+<p align="center">
+  <img src="https://te.legra.ph/file/965b2df3eeaf45cc5a291.jpg"</
+) 
 
 buttons = [
     [
-        InlineKeyboardButton('🥰OOwner', url='https://t.me/santhu_music_bot),
+        InlineKeyboardButton('🥰 Owner', url='https://t.me/santhu_music_bot),
         InlineKeyboardButton('😃 santhosh net work', url='https://t.me/newsstreamer'),
     ]
     ]

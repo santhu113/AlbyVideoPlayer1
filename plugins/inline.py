@@ -64,7 +64,7 @@ async def search(client, query):
                     input_message_content=InputTextMessageContent(
                         "{} https://www.youtube.com/watch?v={}".format(get_cmd(v["duration"]), v["id"])
                     ),
-                    thumb_url=v["thumbnails"][0]["url"]
+                    thumb_url=v["thumbnails"][0]["https://te.legra.ph/file/509686aa88a027bffe2b3.jpg"]
                 )
             )
         try:

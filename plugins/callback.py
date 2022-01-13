@@ -147,7 +147,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             
         if not query.from_user.id in admins:
             await query.answer(
-                "😒 Played Joji.mp3",
+                "😘 Played Joji.mp3",
                 show_alert=True
                 )
             return
@@ -562,3 +562,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 await query.answer("Menu Closed")
                 await query.message.delete()
         await query.answer()
+J

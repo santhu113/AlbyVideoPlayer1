@@ -47,7 +47,7 @@ Telegram bot to stream videos in telegram voicechat for both groups and channels
 
 ## Deploy to heroku
 
-<a href="https://heroku.com/deploy?template=https://github.com/Santhoshpodilibot/AlbyVideoPlayer1.git"><img src="https://i.ibb.co/tsq26Pz/HER-OKU-99.gif" alt="HEROKU-99" border="12" height="95" width="10" align="telegram" /></a>
+<a href="https://heroku.com/deploy?template=https://github.com/ALBINPRAVEEN/AlbyVideoPlayer1"><img src="https://i.ibb.co/tsq26Pz/HER-OKU-99.gif" alt="HEROKU-99" border="12" height="35" width="500" align="telegram" /></a>
 
 ## Deploy to VPS
 

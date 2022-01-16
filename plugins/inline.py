@@ -20,8 +20,9 @@ from pyrogram import (
 
 buttons = [
     [
-        InlineKeyboardButton('🥰 Owner', url='https://t.me/santhu_music_bot),
+        InlineKeyboardButton('🥰 Owner', url='https://t.me/santhu_music_bot),        
         InlineKeyboardButton('😃 santhosh net work', url='https://t.me/newsstreamer'),
+        InlineKeyboardButton('➕ 𝙽𝙰𝙽𝚄 𝙰𝙳𝙳 𝙲𝙷𝙴𝚂𝚄𝙺𝙾𝙽𝙳𝙸', url='https://t.me/{BOT_USERNAME}?startgroup=true'), 
     ]
     ]
 def get_cmd(dur):

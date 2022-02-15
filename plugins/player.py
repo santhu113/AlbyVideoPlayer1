@@ -58,7 +58,7 @@ async def add_to_playlist(_, message: Message):
         admins = await get_admins(Config.CHAT)
         if Config.ADMIN_ONLY:
             if not (message.from_user is None and message.sender_chat or message.from_user.id in admins):
-                k=await message.reply_sticker("CAADBQADsQIAAtILIVYld1n74e3JuQI")
+                k=await message.reply_sticker("CAACAgQAAxkBAAIDaWILwzCnTr-JdiIujk-rRnMVNuyQAAKACwACwsDYUXEHwEyrFM6hIwQ")
                 await delete_messages([message, k])
                 return
         type=""
@@ -488,9 +488,9 @@ async def not_chat(_, m: Message):
     else:
         buttons = [
             [
-                InlineKeyboardButton('⚡️Developer', url='https://albinpraveen.ml/portfolio'),
-                InlineKeyboardButton('🧩 Owner', url='https://t.me/i_am_albin_praveen'),
+                InlineKeyboardButton('💙ᴏᴡɴᴇʀ💗', url='https://t.me/santhu_music_bot'),
+                InlineKeyboardButton('💚ɴᴇᴛᴡᴏʀᴋ🤎', url='https://t.me/santhuvc'),
             ]
             ]
-        await m.reply("<b>You can't use this bot in this group, For more details contact @i_am_albin_praveen</b>", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
+        await m.reply("<b>You can't use this bot in this group, For more details contact @santhu_music_bot</b>", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
 

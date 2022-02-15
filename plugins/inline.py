@@ -20,8 +20,8 @@ from pyrogram import (
 
 buttons = [
     [
-        InlineKeyboardButton('🥰 Owner', url='https://t.me/santhu_music_bot),        
-        InlineKeyboardButton('😃 santhosh net work', url='https://t.me/newsstreamer'),
+        InlineKeyboardButton('🥰 ᴏᴡɴᴇʀ', url='https://t.me/santhu_music_bot),        
+        InlineKeyboardButton('😃 ɴᴇᴛᴡᴏʀᴋ', url='https://t.me/santhuvc'),
         InlineKeyboardButton('➕ 𝙽𝙰𝙽𝚄 𝙰𝙳𝙳 𝙲𝙷𝙴𝚂𝚄𝙺𝙾𝙽𝙳𝙸', url='https://t.me/{BOT_USERNAME}?startgroup=true'), 
     ]
     ]
@@ -33,11 +33,11 @@ def get_cmd(dur):
 @Client.on_inline_query()
 async def search(client, query):
     answers = []
-    if query.query == "ETHO_ORUTHAN_PM_VANNU":
+    if query.query == "ᴘᴍ ᴄʜᴇʏɪ..":
         answers.append(
             InlineQueryResultArticle(
                 title="Deploy",
-                input_message_content=InputTextMessageContent(f"{Config.REPLY_MESSAGE}\n\n<b>You can't use this bot in your group, contact @i_am_albin_praveen.</b>", disable_web_page_preview=True),
+                input_message_content=InputTextMessageContent(f"{Config.REPLY_MESSAGE}\n\n<b>You can't use this bot in your group, contact @santhu_music_bot.</b>", disable_web_page_preview=True),
                 reply_markup=InlineKeyboardMarkup(buttons)
                 )
             )
@@ -48,7 +48,7 @@ async def search(client, query):
         await client.answer_inline_query(
             query.id,
             results=answers,
-            switch_pm_text=("Search a youtube video"),
+            switch_pm_text=("sᴇᴀʀᴄʜ ᴀ ʏᴏᴜᴛᴜʙᴇ ᴠɪᴅᴇᴏ"),
             switch_pm_parameter="help",
             cache_time=0
         )

@@ -1,7 +1,7 @@
 {
     "name": "AKBYVIDEOMUSIC",
     "description": "Telegram bot to stream video in telegram VC",
-    "repository": "https://github.com/santhu113/AlbyVideoPlayer1.git",
+    "repository": "https://github.com/albinpraveen/AlbyVideoPlayer",
     "stack": "container",
     "keywords": [
       "telegram",
@@ -66,7 +66,7 @@
         "required": false
       },
       "STARTUP_STREAM": {
-        "description": "YouTube live / Direct link to a video / Telegram link to a YouTube playlist.(Read the README for more info.",
+        "description": "YouTube live / Direct link to a video / Telegram link to a YouTube playlist.(Read the README for more info.) ",
         "value": "https://youtu.be/zcrUCvBD16k",
         "required": false
       },
